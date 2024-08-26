@@ -30,9 +30,12 @@ This project is built with React.js. It allows users to view, add, edit, and del
     │       └── celebrities.json
     ├── src/
     │   ├── components/
-    │   │   ├── UserAccordion.js
-    │   │   ├── FooterButtons.js
-    │   │   └── ConfirmModal.js
+    │   │   ├── UserAccordion.jsx
+    │   │   ├── UserHeader.js
+    │   │   ├── UserDetails.jsx
+    │   │   ├── UserDescription.jsx
+    │   │   ├── FooterButtons.jsx
+    │   │   └── ConfirmModal.jsx
     │   ├── App.jsx
     │   ├── index.jsx
     │   └── index.css
