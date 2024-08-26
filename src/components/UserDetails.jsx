@@ -2,7 +2,7 @@ const UserDetails = ({ isEditing, formData, handleInputChange }) => {
   return (
     <div className="user-details my-4 flex flex-row flex-wrap justify-between gap-4">
       <div className="user-age">
-        <label className="block m-2 text-gray-500" htmlFor="age">
+        <label className="block my-1 mx-2 text-gray-500" htmlFor="age">
           Age
         </label>
         <input
@@ -18,7 +18,7 @@ const UserDetails = ({ isEditing, formData, handleInputChange }) => {
         />
       </div>
       <div className="user-gender">
-        <label className="block m-2 text-gray-500" htmlFor="gender">
+        <label className="block my-1 mx-2 text-gray-500" htmlFor="gender">
           Gender
         </label>
         <select
@@ -39,7 +39,7 @@ const UserDetails = ({ isEditing, formData, handleInputChange }) => {
         </select>
       </div>
       <div className="user-country">
-        <label className="block m-2 text-gray-500" htmlFor="country">
+        <label className="block my-1 mx-2 text-gray-500" htmlFor="country">
           Country
         </label>
         <input

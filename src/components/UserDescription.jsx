@@ -10,7 +10,7 @@ const UserDescription = ({ isEditing, formData, handleInputChange }) => {
 
   return (
     <div className="user-desc w-full">
-      <label className="block m-2 text-gray-500" htmlFor="desc">
+      <label className="block my-1 mx-2 text-gray-500" htmlFor="desc">
         Description
       </label>
       <textarea
