@@ -37,7 +37,7 @@ This project is built with React.js. It allows users to view, add, edit, and del
     │   │   ├── FooterButtons.jsx
     │   │   └── ConfirmModal.jsx
     │   ├── App.jsx
-    │   ├── index.jsx
+    │   ├── main.jsx
     │   └── index.css
     ├── eslint.config.js
     ├── postcss.config.js
