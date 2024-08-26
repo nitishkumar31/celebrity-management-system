@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import UserAccordion from "./components/UserAccordion";
 import { BsSearch } from "react-icons/bs";
+// import data from "../public/data/celebrities.json";
 
 function App() {
   const [users, setUsers] = useState([]);
@@ -8,7 +9,6 @@ function App() {
   const [editMode, setEditMode] = useState(false);
   const [openUserId, setOpenUserId] = useState(null);
 
-  // fetch all celebrities data from the json file
   useEffect(() => {
     const fetchUsers = async () => {
       try {
@@ -26,11 +26,14 @@ function App() {
     fetchUsers();
   }, []);
 
+  // useEffect(() => {
+  //   setUsers(data);
+  // }, []);
+
   const handleSearch = (e) => {
     setSearchTerm(e.target.value);
   };
 
-  // validate that do not toggle in edit mode
   const toggleAccordion = (userId) => {
     if (editMode) return;
     setOpenUserId((prev) => (prev === userId ? null : userId));
