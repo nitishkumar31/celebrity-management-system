@@ -6,7 +6,7 @@ This project is built with React.js. It allows users to view, add, edit, and del
 
 - **View Users:** On the homepage, you will see a list of users. Click on the `+` icon to expand or collapse their details.
 - **Search User:** Use the search bar to quickly find users by name or other details.
-- **Edit User:** Click on the `Edit` button to enter edit mode. Modify the desired fields and click "Save" to apply changes or `Cancel` to discard changes.
+- **Edit User:** Click on the `Edit` button to enter edit mode. Modify the desired fields and click `Save` to apply changes or `Cancel` to discard changes.
 - **Delete User:** Click on the `Delete` button, and a confirmation modal will appear. Confirm the deletion to remove the user from the list.
 
 ## Features
